@@ -1,5 +1,6 @@
 Snapigram is the clone of famous social media app Instagram, developed by using ```React-Native``` as front end and ```Python-Flask``` as Backend.User can post there images with captions and tags. and See other user posts.
-[go to this link for detailed instruction](https://hasura.io/hub/projects/officialrj18/Snapigram)
+
+ - [go to this link for detailed instruction](https://hasura.io/hub/projects/officialrj18/Snapigram)
 
 
 ## What does this come with
