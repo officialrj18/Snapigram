@@ -1,10 +1,55 @@
+Snapigram is the clone of famous social media app Instagram, developed by using ```React-Native``` as front end and ```Python-Flask``` as Backend.User can post there images with captions and tags. and See other user posts.
+[go to this link for detailed instruction](https://hasura.io/hub/projects/officialrj18/Snapigram)
+
+
 ## What does this come with
 
-- Boilerplate code, configuration for:
-  - python3 flask setup with a `requirements.txt` file
-  - Gunicorn integration
-  - Auto-reloading for local development
-  - Ready to go Dockerfile that will automatically install deps from `requirements.txt`
+  - Login and Signup with support of hasura auth api
+  - Session Control
+  - Pull down refresh and fetch latest update 
+  - Browse registered user posts
+ -  Shows timing of post when it was posted 
+  - Upload image with support of hasura filestore api
+  - Add Caption and tags in image with support of hasura data api
+ 
+
+ **TIP** : The Hasura [data](https://hasura.io/features/data), [auth](https://hasura.io/features/auth) & [filestore](https://hasura.io/features/filestore) APIs are very powerful and can help you save a lot of time and code when building out your applications. like we saved :)
+
+
+## Overview
+
+  **We will have 5 screen plan:**
+
+1. Login Form: We have used Hasura's [authentication API ](https://hasura.io/features/auth)
+2. Signup Form: We have used Hasura's [authentication API](https://hasura.io/features/auth)
+3. HomeScreen: An updated list of all Posts is shown in this screen, where registered users post are shown. We have used Hasura's [Data API](https://hasura.io/features/data) 
+4. Camera Screen: User can click the images and then take it from the gallery or directly choose the image from the gallery for further use.
+5. Share Screen : Here user will add caption or tags with images ,then he/she can post.
+
+
+## Deployment instructions
+
+- Press the 'Clone and Deploy' button at the top of the screen.
+- Follow the instructions given.
+
+   1. ```cd Snapigram/React-Native```
+   2. ```npm install```
+   3. Install the Expo app on your Android device. You can download it from the 
+       Google Play Store.
+   4. ```npm start``` 
+        It takes sometime to load the packages.
+        At the end, a QR code appears in your terminal.
+    5. Scan it using 'Expo' app to open the app.
+
+ ### Alternative way :
+1. Install Expo XDE.
+2. Refer [Expo this](https://docs.expo.io/versions/latest/introduction/installation.html) for installation.
+3. Open the Expo XDE.
+4. Click on Open existing project and select Snapigram.
+5. Once the project loads, click on Share.
+6. Scan the QR code using the Expo app from your phone (Install from Playstore).
+7. The app will open.
+
 
 
 ### Deployment instructions
